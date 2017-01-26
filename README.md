@@ -75,7 +75,7 @@ const transform = branch(src => [src.pipe(foo()), src.pipe(bar())])
 
 `transform` is a transform stream. Inputs are piped into both `foo()` and `bar()` and the outputs are the merged stream of the outputs of both `foo()` and `bar()`.
 
-# branch.obj(func)
+## branch.obj([options,] func)
 
 The shorthand for the object mode of the above. The behavior is the same as the above exceptthat default of options.objectMode is `true` and default of options.highWaterMark is `16`.
 
