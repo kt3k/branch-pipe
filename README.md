@@ -1,4 +1,4 @@
-# branch-pipe v1.0.0
+# branch-pipe v1.0.1
 
 [![CircleCI](https://circleci.com/gh/kt3k/branch-pipe.svg?style=svg)](https://circleci.com/gh/kt3k/branch-pipe)
 [![codecov](https://codecov.io/gh/kt3k/branch-pipe/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/branch-pipe)
