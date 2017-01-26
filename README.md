@@ -1,5 +1,7 @@
 # branch-pipe v1.0.0
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kt3k/branch-pipe.svg)](https://greenkeeper.io/)
+
 badges
 
 > Simple syntax for branching and merging a stream
