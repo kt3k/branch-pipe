@@ -8,7 +8,7 @@ const stringify = obj => JSON.stringify(obj)
 test('`branch` forks and merges the stream', t => {
   t.plan(4)
 
-  const readable = new Readable({ read() {} })
+  const readable = new Readable({ read () {} })
 
   readable.pipe(branch(src => [src.pipe(through2((chunk, enc, cb) => {
     t.equal(chunk.toString(), 'hello')
@@ -50,7 +50,7 @@ test('`branch throws when the given func does not return an array', t => {
 test('`branch.obj` creates a transform in object mode', t => {
   t.plan(4)
 
-  const readable = new Readable({ objectMode: true, read() {} })
+  const readable = new Readable({ objectMode: true, read () {} })
 
   readable.pipe(branch.obj(src => [src.pipe(through2.obj((chunk, enc, cb) => {
     t.deepEqual(chunk, { hello: 'world' })

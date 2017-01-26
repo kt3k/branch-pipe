@@ -23,7 +23,7 @@ const branch = (options, func) => {
   }
 
   const input = new Transform(Object.assign({
-    transform (chunk, enc, cb) { cb(null, chunk) }   
+    transform (chunk, enc, cb) { cb(null, chunk) }
   }, options))
 
   const branches = func(input)
