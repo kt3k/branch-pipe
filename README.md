@@ -1,8 +1,9 @@
 # branch-pipe v1.0.0
 
+[![CircleCI](https://circleci.com/gh/kt3k/branch-pipe.svg?style=svg)](https://circleci.com/gh/kt3k/branch-pipe)
+[![codecov](https://codecov.io/gh/kt3k/branch-pipe/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/branch-pipe)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/kt3k/branch-pipe.svg)](https://greenkeeper.io/)
-
-badges
 
 > Simple syntax for branching and merging a stream
 
