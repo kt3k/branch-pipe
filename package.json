@@ -1,0 +1,39 @@
+{
+  "name": "branch-pipe",
+  "version": "0.1.0",
+  "description": "Simple syntax for branching and merging a stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run cov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/branch-pipe.git"
+  },
+  "keywords": [
+    "fork",
+    "branch",
+    "stream",
+    "vinyl",
+    "gulp",
+    "gulpfriendly"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/branch-pipe/issues"
+  },
+  "homepage": "https://github.com/kt3k/branch-pipe#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "nyc": "^10.1.2",
+    "tape": "^4.6.3",
+    "through2": "^2.0.3"
+  },
+  "dependencies": {
+    "duplexer2": "^0.1.4",
+    "merge-stream": "^1.0.1"
+  }
+}
