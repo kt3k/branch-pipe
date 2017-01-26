@@ -1,4 +1,4 @@
-# branch-pipe v0.1.0
+# branch-pipe v1.0.0
 
 badges
 
