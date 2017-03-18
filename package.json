@@ -30,7 +30,7 @@
   "devDependencies": {
     "codecov": "^2.0.1",
     "nyc": "^10.1.2",
-    "standard": "^8.6.0",
+    "standard": "^9.0.2",
     "tape": "^4.6.3",
     "through2": "^2.0.3"
   },
