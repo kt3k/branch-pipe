@@ -24,7 +24,7 @@ const branch = require('branch-pipe')
 const gulp = require('gulp')
 
 gulp.src('src/**/*.md')
-  .pipe(branch(src => [
+  .pipe(branch.obj(src => [
     src.pipe(foo()),
     src.pipe(bar()),
     src.pipe(baz())
