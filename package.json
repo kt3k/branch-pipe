@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "duplexer2": "^0.1.4",
-    "merge-stream": "^1.0.1"
+    "merge-stream": "^2.0.0"
   }
 }
